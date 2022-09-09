@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	char first[] = {'a', 'b', 'c', 'd', '\0'};
-	char second[] = {'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', '\0'};
-	char third[] = {'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\0'};
+	char c;
 
-	putchar(first, second, third);
-	putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c, !(c == 'e' && c == 'q');
+		putchar('\n');
 
 	return (0);
 }
