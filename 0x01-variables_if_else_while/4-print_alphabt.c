@@ -11,8 +11,14 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		putchar(c, !(c == 'e' && c == 'q');
-		putchar('\n');
+	{
+		if (c == 'e' || c == 'q')
+		{
+			continue;
+		}
+	}
+	putchar(c);
+	putchar('\n');
 
 	return (0);
 }
