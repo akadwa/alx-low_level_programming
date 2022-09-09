@@ -12,10 +12,9 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-		{
-			putchar(c);
-			putchar(toupper(c));
-		}
+
+	putchar(c);
+	putchar(toupper(c));
 	putchar('\n');
 
 	return (0);
