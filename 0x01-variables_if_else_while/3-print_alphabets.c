@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * Description: 'Print alphabets in lowercase and then uppercase.'
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		{
+			putchar(c);
+			putchar(toupper(c));
+		}
+	putchar('\n');
+
+	return (0);
+}
+
