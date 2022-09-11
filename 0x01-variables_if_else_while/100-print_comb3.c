@@ -2,8 +2,8 @@
 
 /**
  * main - entry point
- * Description: 'A program that prints all possible different combinations of two digits
- * 			foolowed by a comma and space'
+ * Description: 'Prints all possible different
+ * combinations of two digits foolowed by a comma and space'
  * Return: success (0)
  */
 
@@ -28,5 +28,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
