@@ -3,20 +3,19 @@
 
 /**
  * _abs - Gives the absolute value of an integer
- * @n : the integer to be converted
- * Return: Always 0(success)
+ * @ab : the integer to be converted
+ * Return: Absolute value of integer
  */
 
-int _abs(int n)
+int _abs(int ab)
 {
-	if (n > 0)
+	if (ab > 0)
 	{
-		printf("%d", n);
-	} else
+		return (ab);
+	} else if (ab < 0)
 	{
-		printf("-%d", n);
+		return ((ab * -1));
 	}
-
 	return (0);
 
 }
