@@ -1,7 +1,8 @@
-#ifndef HEADER_FILE_NAME
-#define HEADER_FILE_NAME
+#ifndef ALx_HEADERFILE
+#define ALx_HEADERFILE
 
 int _putchar(char c);
+void print_alphabet(void);
 
 
 #endif
