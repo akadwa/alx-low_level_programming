@@ -11,7 +11,10 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		_putchar("0, ");
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
+
 		for (col = 1; col <= 9; col++)
 		{
 			current = (row * col);
@@ -22,11 +25,13 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
+
 			_putchar((current % 10) + '0');
 
 			if (col < 9)
 			{
-				_putchar(", ");
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
