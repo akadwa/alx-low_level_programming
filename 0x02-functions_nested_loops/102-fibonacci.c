@@ -21,7 +21,7 @@ int main(void)
 		nextTerm = t1 + t2;
 		if (i == 50)
 		{
-			printf("%lu", nextTerm);
+			printf("%lu\n", nextTerm);
 		} else
 		{
 			printf("%lu, ", nextTerm);
