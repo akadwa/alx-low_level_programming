@@ -14,7 +14,7 @@ int main(void)
 
 	printf("%lu, %lu, ", t1, t2);
 
-	for (i = 3; i <= 100; ++i)
+	for (i = 3; i <= 98; ++i)
 	{
 		printf("%lu, ", nextTerm);
 		t1 = t2;
