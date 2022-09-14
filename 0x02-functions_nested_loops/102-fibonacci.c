@@ -12,14 +12,14 @@ int main(void)
 
 	unsigned long nextTerm = t1 + t2;
 
-	printf("%lu, %lu, ", t1, t2);
+	printf("%lu, %lu, %lu, ", t1, t2, nextTerm);
 
-	for (i = 2; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
-		if (i < 50)
+		if (i < 47)
 		{
 			printf("%lu, ", nextTerm);
 		}
