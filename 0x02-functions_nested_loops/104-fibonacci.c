@@ -12,9 +12,9 @@ int main(void)
 
 	int nextTerm = t1 + t2;
 
-	printf("%d, %d\n", t1, t2);
+	printf("%d, %d, ", t1, t2);
 
-	for (i = 3; i <= 100; i++)
+	for (i = 3; i <= 100; ++i)
 	{
 		printf("%d, ", nextTerm);
 		t1 = t2;
