@@ -11,9 +11,12 @@ void rev_string(char *s)
 	int length, c;
 	char *begin, *end, temp;
 
-	length = _strlen(s);
 	begin = s;
 	end = s;
+	length = 0;
+
+	while (*(s + length) != '\0')
+		length++
 
 	for (c = 0; c < length - 1; c++)
 		end++;
