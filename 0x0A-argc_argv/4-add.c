@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	for (a = 1; a < argc; a++)
 	{
-		total += atoi(argv[i]);
+		total += atoi(argv[a]);
 	}
 
 	printf("%d\n", total);
