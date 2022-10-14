@@ -1,11 +1,11 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include "main.h"
+#include "variadic_functions.h"
 
 /**
  * print_numbers - Prints numbers, followed by new line
  *
- * @seperator: Sperator used between numbers
+ * @separator: Separator used between numbers
  * @n: Number of numbers to print
  */
 
@@ -20,8 +20,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		num = va_arg(valist, int);
 		printf("%d", num);
-		if (i < n - 1 && seperator)
-			printf("%s", seperator);
+		if (i < n - 1 && separator)
+			printf("%s", separator);
 	}
 	printf("\n");
 	va_end(valist);
